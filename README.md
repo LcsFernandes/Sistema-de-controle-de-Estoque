@@ -6,8 +6,7 @@
 ## Proposta de solução:
   - Tecnologias utilizadas:
       - Banco de dados: MongoDB
-          Foi utilizado o MongoDb devido a sua grande escalabilidade e performance. Tratando de um eCommerce, se faz necessário a performance do armazenamento e a velocidade da informação, já que qualquer gargalo  
- e/ou lentidão poderia acarretar em mal funcionamento do eCommerce e assim perder clientes.
+          - Foi utilizado o MongoDb devido a sua grande escalabilidade e performance. Tratando de um eCommerce, se faz necessário a performance do armazenamento e a velocidade da informação, já que qualquer gargalo e/ou lentidão poderia acarretar em mal funcionamento do eCommerce e assim perder clientes.
  
       - Ingestão de dados: Nifi
           O Nifi por ser uma ferramenta muito poderosa, eficaz e de simples configuração, acabou sendo a tecnologia para ingestão de dados. O Nifi coleta os dados do mongoDB e transfere ao Data Lake (S3 - AWS).  
