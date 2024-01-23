@@ -1,7 +1,7 @@
 # Sistema-de-controle-de-Estoque
 
 ## Objetivo do Projeto:
-    Esse sistema tem por objetivo construir um Pipeline de dados para trazer informações relevantes referente ao estoque de um eCommerce, mostrando algumas informações que podem servir de insights para futuras ações.
+   Esse sistema tem por objetivo construir um Pipeline de dados para trazer informações relevantes referente ao estoque de um eCommerce, mostrando algumas informações que podem servir de insights para futuras ações.
 
 ## Proposta de solução:
 
