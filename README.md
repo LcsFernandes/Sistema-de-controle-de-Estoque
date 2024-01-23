@@ -1,9 +1,15 @@
 # Sistema-de-controle-de-Estoque
 
 ## Objetivo do Projeto:
-  Esse sistema tem por objetivo construir um Pipeline de dados para trazer informações relevantes referente ao estoque de um eCommerce, mostrando algumas informações que podem servir de insights para futuras ações.
+    Esse sistema tem por objetivo construir um Pipeline de dados para trazer informações relevantes referente ao estoque de um eCommerce, mostrando algumas informações que podem servir de insights para futuras ações.
 
 ## Proposta de solução:
+
+  - **Arquitetura**:
+    ![Arquitetura](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/assets/47150397/3510ce65-d230-429c-b15c-2ebf5b3df0c7)
+
+
+    
   - Tecnologias utilizadas:
       - Banco de dados: MongoDB
           - Foi utilizado o MongoDb devido a sua grande escalabilidade e performance. Tratando de um eCommerce, se faz necessário a performance do armazenamento e a velocidade da informação, já que qualquer gargalo e/ou lentidão poderia acarretar em mal funcionamento do eCommerce e assim perder clientes.
