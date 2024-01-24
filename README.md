@@ -21,7 +21,7 @@
         - O Datalake foi construído no Amazon S3 devido à sua escalabilidade e facilidade de uso. 
       
       - **ETL: Lambda - AWS**
-         - Foi necessário utilizar o Amazon Lambda para realizar a ingestão dos dados da camada Raw do data lake para a Refined.
+         - Foi necessário utilizar o Amazon Lambda para realizar a transformação e ingestão dos dados da camada Raw do data lake para a Refined.
       
       - **Visualização: Power Bi**
          - Para construção da visualização foi utilizado o Power Bi por permitir desenvolver as visualizações necessárias de forma simples e eficaz.
