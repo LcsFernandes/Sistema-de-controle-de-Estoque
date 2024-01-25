@@ -24,7 +24,7 @@ db.produtos.insertMany([
     {"_id": 18, "NM_PROD": "Racao Royal Canin", "DS_PROD": "Racao especial Royal Canin", "PC_PROD": 112.3, "QT_PROD": 0, "LD_TIME": 14},
     {"_id": 19, "NM_PROD": "Smart TV 60 polegadas", "DS_PROD": "Melhor TV smart do mercado", "PC_PROD": 2567.85, "QT_PROD": 0, "LD_TIME": 25},
     {"_id": 20, "NM_PROD": "Livro conhecendo o futuro", "DS_PROD": "Livro que explica o sentido da vida", "PC_PROD": 55, "QT_PROD": 0, "LD_TIME": 12}
-])
+]);
 
 db.nota_fiscal.insertMany([
     {"_id": 1, "ID_CLIENTE": 1, "NR_NF": 50, "VL_NF": 108, "DT_NF": "2023/05/13", "ID_PROD": 15, "QTD_PROD": 2, "TP_OPER": 1},
@@ -293,4 +293,4 @@ db.nota_fiscal.insertMany([
     {"_id": 264, "ID_CLIENTE": 264, "NR_NF": 313, "VL_NF": 2134.99, "DT_NF": "2023/09/30", "ID_PROD": 4, "QTD_PROD": 1, "TP_OPER": 1},
     {"_id": 265, "ID_CLIENTE": 265, "NR_NF": 314, "VL_NF": 2640, "DT_NF": "2023/09/30", "ID_PROD": 13, "QTD_PROD": 1, "TP_OPER": 1},
     {"_id": 266, "ID_CLIENTE": 266, "NR_NF": 315, "VL_NF": 2567.85, "DT_NF": "2023/09/30", "ID_PROD": 19, "QTD_PROD": 1, "TP_OPER": 1}
-])
+]);
