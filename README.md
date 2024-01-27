@@ -28,4 +28,4 @@
          - Foi necessário utilizar o Amazon Lambda para realizar a transformação e ingestão dos dados da camada Raw do data lake para a Refined. [Codigo](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/ba2ca546f9589f009d2dcc2dbf4443b1fe13a284/lambda.py)
       
       - **Visualização: Power Bi**
-         - Para construção da visualização foi utilizado o Power Bi por permitir desenvolver as visualizações necessárias de forma simples e eficaz.
+         - Para construção da visualização foi utilizado o Power Bi por permitir desenvolver as visualizações necessárias de forma simples e eficaz. [Dashboard](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/tree/cd7c66a6726364fd1488644638f2336aa69afe48/powerBi)
