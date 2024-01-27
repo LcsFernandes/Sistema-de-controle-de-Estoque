@@ -18,7 +18,7 @@
          - O Nifi por ser uma ferramenta muito poderosa, eficaz e de simples configuração, acabou sendo a tecnologia para ingestão de dados. O Nifi coleta os dados do mongoDB e transfere ao Data Lake no amazon S3. [Nifi](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/8b70651e4a0364155c0a59bebaf8d289d0421ff9/NiFi/Nifi.png)  
       
       - **Data Lake: Amazon S3**
-        - O Datalake foi construído no Amazon S3 devido à sua escalabilidade e facilidade de uso. [Data lake] (https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/acc6f8307c6196fcc05ce22d197e56e79d0de805/Datalake/DataLake_estrututra.png)
+        - O Datalake foi construído no Amazon S3 devido à sua escalabilidade e facilidade de uso. [Data lake](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/acc6f8307c6196fcc05ce22d197e56e79d0de805/Datalake/DataLake_estrututra.png)
       
       - **ETL: Lambda - AWS**
          - Foi necessário utilizar o Amazon Lambda para realizar a transformação e ingestão dos dados da camada Raw do data lake para a Refined.
