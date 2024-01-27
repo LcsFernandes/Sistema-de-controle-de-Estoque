@@ -15,7 +15,7 @@
           - Foi utilizado o MongoDb devido a sua grande escalabilidade e performance. Tratando de um eCommerce, se faz necessário a performance do armazenamento e a velocidade da informação, já que qualquer gargalo e/ou lentidão poderia acarretar em mal funcionamento do eCommerce e assim perder clientes. Vide a referencia: [schema.js](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/0975520aac3616ff9da1ff18d8009086d75f119e/Docker/schema.js), [compose.yml](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/3312f86351697604a6f3084353a85c6e569642db/Docker/compose.yml)
  
       - **Ingestão de dados: Nifi**
-         - O Nifi por ser uma ferramenta muito poderosa, eficaz e de simples configuração, acabou sendo a tecnologia para ingestão de dados. O Nifi coleta os dados do mongoDB e transfere ao Data Lake (S3 - AWS).  
+         - O Nifi por ser uma ferramenta muito poderosa, eficaz e de simples configuração, acabou sendo a tecnologia para ingestão de dados. O Nifi coleta os dados do mongoDB e transfere ao Data Lake no amazon S3. [Nifi](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/8b70651e4a0364155c0a59bebaf8d289d0421ff9/NiFi/Nifi.png)  
       
       - **Data Lake: Amazon S3**
         - O Datalake foi construído no Amazon S3 devido à sua escalabilidade e facilidade de uso. 
