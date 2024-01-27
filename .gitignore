@@ -1,2 +1,4 @@
+.gitignore
 Docker/database-data
 Docker/nifi*
+teste.ipynb
