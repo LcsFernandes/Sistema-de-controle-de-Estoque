@@ -21,7 +21,7 @@
         - O Datalake foi construído no Amazon S3 devido à sua escalabilidade e facilidade de uso. [Data lake](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/acc6f8307c6196fcc05ce22d197e56e79d0de805/Datalake/DataLake_estrututra.png)
       
       - **ETL: Lambda - AWS**
-         - Foi necessário utilizar o Amazon Lambda para realizar a transformação e ingestão dos dados da camada Raw do data lake para a Refined.
+         - Foi necessário utilizar o Amazon Lambda para realizar a transformação e ingestão dos dados da camada Raw do data lake para a Refined. [Codigo](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/ba2ca546f9589f009d2dcc2dbf4443b1fe13a284/lambda.py)
       
       - **Visualização: Power Bi**
          - Para construção da visualização foi utilizado o Power Bi por permitir desenvolver as visualizações necessárias de forma simples e eficaz.
