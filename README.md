@@ -13,7 +13,7 @@
   - **Tecnologias utilizadas**:
 
        - **Docker**:
-            -Foi utlizado o docker para containerização das aplicaçãoes locais (Mongodb e Nifi). [compose.yml](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/3312f86351697604a6f3084353a85c6e569642db/Docker/compose.yml)
+            - Foi utlizado o docker para containerização das aplicaçãoes locais (Mongodb e Nifi). [compose.yml](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/3312f86351697604a6f3084353a85c6e569642db/Docker/compose.yml)
          
       - **Banco de dados: MongoDB**
           - Foi utilizado o MongoDb devido a sua grande escalabilidade e performance. Tratando de um eCommerce, se faz necessário a performance do armazenamento e a velocidade da informação, já que qualquer gargalo e/ou lentidão poderia acarretar em mal funcionamento do eCommerce e assim perder clientes. Vide a referencia: [schema.js](https://github.com/LcsFernandes/Sistema-de-controle-de-Estoque/blob/0975520aac3616ff9da1ff18d8009086d75f119e/Docker/schema.js)
